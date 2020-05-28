@@ -24,7 +24,7 @@ def build_text_corpus(folder_location):
     with open('first_all_text_uncleaned.pickle', 'wb') as pickled_location:
         pickle.dump(array_all_texts_initial, pickled_location)
 
-
+# more_stop_words obtained by analyzing most frequent words that appear in texts
 more_stop_words = ['january', 'february', 'march', 'april', 'may', 'june', 'july',
                    'august', 'september', 'october', 'november', 'december', 'today',
                    'tomorrow', 'yesterday', 'said', 'say', 'two', 'one', 'three', 'four', 'five',
