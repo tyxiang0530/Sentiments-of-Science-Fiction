@@ -45,4 +45,4 @@ model.fit(X_train2, y_train2, validation_data = (X_valid, y_valid),
 scores = model.evaluate(test, labels_test, verbose = 0)
 print('Test accuracy:', scores[1])
 
-model.save('no_keras_model.h5')
+model.save('book_classifier.h5')
