@@ -3,7 +3,7 @@
 This project seeks to gather a large corpus of science fiction works over an incremented period of time and perform sentiment analysis on them.
 ** Folders
 *** Text Processing
-Contains items describing how dataset is cleaned and saved
+Contains items describing how corpus of texts is cleaned and saved
 *** lstm
 Contains all items related to cleaning of training dataset, training of neural net sentiment analysis model, and various testing permutations of neural net model
 *** no_nn
