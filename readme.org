@@ -8,3 +8,5 @@ Contains items describing how corpus of texts is cleaned and saved
 Contains all items related to cleaning of training dataset, training of neural net sentiment analysis model, and various testing permutations of neural net model
 *** no_nn
 Contains all items related to creation of voted classification sentiment analysis model that does not utilize a neural net
+*** corpus
+Contains the code for cleaning the corpus texts, a list of stopwords used in the cleaning process, as well as a collection of copyright free texts from the 1900s - 1930s pulled from Project Gutenberg. 
